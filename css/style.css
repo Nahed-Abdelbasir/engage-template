@@ -1,0 +1,655 @@
+/*=============== start my framwork =================*/
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.clr
+{
+    clear: both;
+}
+ul
+{
+    list-style-type: none;
+}
+a
+{
+    text-decoration: none;
+}
+body , button
+{
+    font-family: "Open Sans";
+}
+h2
+{
+    font-size: 35px;
+    font-weight: 100;
+}
+h4
+{
+    font-size: 18px;
+    font-weight: 100;
+}
+.container
+{
+    margin:auto;
+    width: 90%;
+    padding: 90px 0;
+}
+.text-center
+{
+    text-align: center;
+}
+button
+{
+    font-weight: bold;
+}
+
+/*================ end my framwork =================*/
+/*================= start header ===================*/
+
+.home
+{
+    height: 820px;
+    background-image: url(../images/business-2.jpg);
+    background-size: 100% 100%;
+}
+.home .overlay
+{
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+}
+.home .header
+{
+    margin:auto;
+    width: 90%;
+}
+.home .nav .logo
+{
+    float: left;
+    padding: 32px 0;
+}
+.home .nav .logo img
+{
+    height: 36px;
+}
+.home .nav ul
+{
+    float: right;
+}
+.home .nav ul li
+{
+    float: left;
+    padding: 33px 15px;
+}
+.home .nav ul li a
+{
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+.home .nav ul li.active
+{
+    border-top: 2px solid #4caf50;
+}
+.home .nav ul li a span
+{
+    background-color: #fff;
+    color: #444;
+    padding: 10px 20px;
+    border-radius: 2px;
+}
+.home .nav ul li a span:hover{
+    color: #fff;
+    background-color: #4caf50;
+}
+.home .caption
+{
+    margin: auto;
+    padding: 200px 100px;
+    color: #fff;
+}
+.home .caption p
+{
+    font-size: 20px;
+}
+.home .caption h1
+{
+    font-size: 50px;
+    padding: 40px 0;
+}
+.home .caption .btn
+{
+    border: none;
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 3px;
+    font-size: bold;
+    background-color: #4caf50;
+}
+.home .caption .btn:hover
+{
+    color: #000;
+    background-color: #fff; 
+}
+
+/*=================== end header ===================*/
+/*================ start features ==================*/
+
+.feature
+{
+    float: left;
+    width: 33.3333%;
+}
+.feature img
+{
+    float: left;
+    padding-right: 20px;
+}
+.feature h4
+{
+    float: left;
+    font-weight: 100;
+}
+.feature p
+{
+    padding:0 40px 0 50px;
+    color: #888;
+    line-height: 1.7;
+}
+
+/*=================== end features ===================*/
+/*================== start services ==================*/
+
+.services{
+    background-color: #f9f9f9;
+}
+.services .service-text
+{
+    font-size: 20px;
+    padding: 20px 0 60px;
+    color: #888;
+}
+.services .service
+{
+    float: left;
+    width: 31.33333%;
+    background-color: #fff;
+    padding-bottom: 25px;
+}
+.services .service:nth-of-type(2)
+{
+    margin: 0 2.999%;
+}
+.services .service img
+{
+    width: 100%;
+}
+.services .service h4 
+{
+    padding: 20px 20px 10px;
+}
+.services .service p
+{
+    color: #888;
+    line-height: 1.7;
+    padding: 0 20px 10px;
+}
+.services .service a
+{
+    color: #666;
+    padding-left: 20px;
+    font-size: 15px;
+}
+.services .service a .fa-arrow-right
+{
+    margin-left: 5px;
+    color: #888;
+}
+.services .service a:hover
+{
+    color: #4caf50;
+}
+.services .service a:hover .fa-arrow-right
+{
+    color: #4caf50;
+    margin-left: 10px;
+}
+
+/*=================== end services ===================*/
+/*=================== start secret ===================*/
+
+.secret .secret-item
+{
+    float: left;
+    width: 46%;
+    padding: 70px 20px 70px 0;
+    margin-right: 3%;
+    font-size: 15px;
+}
+.secret .secret-item h3
+{
+    font-size: 30px;
+    font-weight: 100;
+    color: #444;
+}
+.secret .secret-item p
+{
+    color: #888;
+    line-height: 1.7;
+    padding: 30px 0;
+}
+.secret .secret-item ul li
+{
+    padding-bottom: 18px;
+    color: #888;
+}
+.secret .secret-item ul li .fa-check
+{
+    color: #4caf50;
+    padding-right: 7px;
+}
+.secret .secret-item .btn
+{
+    border: none;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 3px;
+    font-size: bold;
+    background-color: #4caf50;
+    margin-top: 30px;
+}
+.secret .secret-item .btn:hover
+{
+    background-color: #333;
+}
+.secret .secret-img
+{
+    float: left;
+    width: 46%;
+    margin-left: 3%;
+}
+.secret .secret-img img
+{
+    width: 100%;
+}
+
+/*==================== end secret ====================*/
+/*================ start testimonial =================*/
+
+.testimonial
+{
+    background-color: #f9f9f9;
+}
+.testimonial img
+{
+    margin-bottom: 50px;
+}
+.testimonial .comment
+{
+    float: left;
+    width: 31.666666%;
+    position: relative;
+}
+.testimonial .middle-comment
+{
+    margin-right: 2.4444%;
+    margin-left: 2.4444%;
+}
+.testimonial .comment .comment-text
+{
+    background-color: #fff;
+    padding: 24px  23px;
+    border-radius: 3px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: #777;
+}
+.testimonial .comment .comment-text:before
+{
+    content: "";
+    border-width: 12px;
+    border-color: #fff transparent transparent transparent;
+    border-style: solid;
+    position: absolute;
+    left: 30px;
+    top: 187px;
+}
+.testimonial .comment h4
+{
+    font-size: 15px;
+    color: #777;
+    padding: 25px 0 10px 30px;
+}
+.testimonial .comment .comment-item
+{
+    padding-left: 30px;
+    color: #999;
+    font-size: 15px;
+}
+.testimonial .fa-angle-left , .testimonial .fa-angle-right
+{
+    margin-top: 50px;
+    width: 18px;
+    height: 18px;
+    padding: 5px;
+    border-radius: 50%;
+    border:2px solid #d2d2d2;
+    color: #d2d2d2;
+}
+.testimonial .fa-angle-left:hover , .testimonial .fa-angle-right:hover
+{
+    color: #fff;
+    background-color: #4caf50;
+    border-color: #4caf50;
+}
+
+/*================= end testimonial ==================*/
+/*================= start our info ===================*/
+
+.information .info
+{
+    float: left;
+    width: 25%;
+}
+.information .info p
+{
+    color: #999;
+}
+.information .info h2
+{
+    font-size: 50px;
+    margin: 20px 0 10px;
+    color: #444;
+}
+.information .info p
+{
+    font-size: 20px;
+}
+
+/*=================== end our info ===================*/
+/*============== start additional value ==============*/
+
+.add-value
+{
+    background-image: url(../images/download.jpg);
+    background-size: 100% 100%;
+    height: 530px;
+}
+.add-value .overlay
+{
+    height: 100%;
+    background-color: rgba(0,0,0,.4);
+}
+.add-value .caption
+{
+    margin: 40px auto ;
+    width: 63%;
+    color: #e5e5e5;
+}
+.add-value .caption h2
+{
+    font-size: 30px;
+    color: #eee;
+}
+.add-value .caption p
+{
+    margin: 25px 0 30px;
+    font-size: 20px;
+    line-height: 1.7;
+}
+.add-value .caption .btn
+{
+    border: none;
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 3px;
+    font-size: bold;
+    background-color: #4caf50;
+}
+.add-value .caption .btn .fa-arrow-right
+{
+    margin-left: 10px;
+    display: none;
+}
+.add-value .caption .btn:hover
+{
+    color: #000;
+    background-color: #fff;
+    padding: 20px 20px;
+}
+.add-value .caption .btn:hover .fa-arrow-right
+{
+    display: inline;
+}
+
+/*================= end additional value =============*/
+/*=============== start other services ===============*/
+
+.other-services .service-text h2
+{
+    font-size: 40px;
+}
+.other-services .service-text
+{
+    font-size: 21px;
+    padding-top: 20px;
+    color: #888;
+}
+.other-services .service .item
+{
+    float: left;
+    width: 30%;
+    margin-top: 70px;
+}
+.other-services .service .item:nth-of-type(2) ,.other-services .service .item:nth-of-type(5)
+{
+    margin-right:  4%;
+    margin-left:  4%;
+}
+.other-services .service .item h4
+{
+    margin-bottom: 20px;
+}
+.other-services .service .item p
+{
+    color: #666;
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+/*================ end other services ================*/
+/*================== start sponsors ==================*/
+
+.sponsors
+{
+    background-color: #f9f9f9;
+}
+.sponsors .sponsor-logo
+{
+    float: left;
+    width: 14%;
+    opacity: 0.7;
+    margin: 15px 3%;
+}
+.sponsors .sponsor-logo:nth-of-type(2)
+{
+    margin-top: 30px;
+}
+.sponsors .sponsor-logo:nth-of-type(3)
+{
+    margin-top: 5px;
+}
+.sponsors .sponsor-logo:hover
+{
+    opacity: 1;
+}
+.sponsors .sponsor-logo img
+{
+    width: 100%;
+}
+
+/*=================== end sponsors ===================*/
+/*================ start contact us =================*/
+
+.contact-us
+{
+    background-color: #4caf50;
+}
+.contact-us .container
+{
+    padding: 80px 0;
+}
+.contact-us .contact
+{
+    float: left;
+    width: 80%;
+    margin-right: 9%;
+    color: #fff;
+}
+.contact-us .contact p
+{
+    color: #eee;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.contact-us .contact-btn
+{
+    float: right;
+    width: 11%;
+    margin-top: 12px;
+    border: none;
+    background-color: #fff;
+    padding: 22px 25px;
+    border-radius: 3px;
+}
+.contact-us .contact-btn:hover
+{
+    color: #fff;
+    background-color: #444;
+}
+
+/*=================== end contact us ===================*/
+/*================ start testimonial =================*/
+
+.footer
+{
+    background-color: #1F2021;
+}
+.footer .container
+{
+    padding: 60px 0;
+}
+.footer .our-data
+{
+    float: left;
+    width: 24%;
+    margin-right: 1%;
+}
+.footer .our-data:last-of-type
+{
+    margin-right: 0;
+}
+.footer .our-data h4
+{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+.footer .our-data ul li
+{
+    margin-bottom: 15px;
+    position: relative;
+}
+.footer .our-data p 
+{
+    line-height: 1.8;
+}
+.footer .our-data p , .footer .our-data ul li , .footer .our-data ul li a
+{
+    color: #525C64;
+    font-size: 14px;
+}
+.footer .our-data ul li .fa-angle-right 
+{
+    color: #666;
+    margin-right: 7px;
+}
+.footer .our-data ul li .fa-map-marker-alt , .footer .our-data ul li .fa-phone ,.footer .our-data ul li .fa-envelope
+{
+    margin-right: 15px;
+}
+.footer .our-data ul li .fa-map-marker-alt
+{
+    position: absolute;
+    top: 8px; 
+}
+.footer .our-data ul li p
+{
+    margin-left: 30px;
+}
+.footer .our-data ul li .fa-envelope
+{
+    width: 17px;
+    height: 17px;
+}
+
+/*=================== end contact us ===================*/
+/*================== start copyright ===================*/
+
+.copyright
+{
+    background-color: #191919;
+}
+.copyright .container
+{
+    padding: 17px 0;
+}
+.copyright p
+{
+    color: #505963;
+    float: left;
+    margin-top: 7px;
+    font-size: 13px;
+}
+.copyright ul
+{
+    float: right;
+}
+.copyright ul li
+{
+    float: left; 
+}
+.copyright ul li a .fa-facebook-f , .copyright ul li a .fa-google , .copyright ul li a .fa-linkedin-in , .copyright ul li .fa-twitter 
+{
+    color: #535353;
+    width: 13px;
+    height: 13px;
+    padding: 8px;
+    margin-left: 10px;
+    border-radius: 50%;
+    background-color: #171717;
+}
+.copyright ul li a .fa-facebook-f:hover 
+{
+    color: #fff;
+    background-color: #517799;
+}
+.copyright ul li a .fa-google:hover  
+{
+    color: #fff;
+    background-color: #db4437;
+}
+.copyright ul li a .fa-linkedin-in:hover 
+{
+    color: #fff;
+    background-color: #0077b5;
+}
+.copyright ul li a .fa-twitter:hover 
+{
+    color: #fff;
+    background-color: #1da1f2
+}
+    
+/*=================== end copyright ====================*/
